@@ -29,7 +29,7 @@ Class Task is defined by three instance variables: int task_id, string descripti
 ---
 db.py:
 
-db.py: includes methods to connect to task_list_db.sqlite database on a Window's machine,
+includes methods to connect to task_list_db.sqlite database on a Window's machine,
 close the database connection, add a task object to the database using an SQL script,
 search pending and completed tasks to see if a task already exists, return pending tasks,
 add an item to completed tasks, and delete tasks
